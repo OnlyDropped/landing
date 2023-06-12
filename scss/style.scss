@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap");
+@import "vars";
+@import "reset";
+@import "global";
+// .header {
+//   background: olivedrab;
+// }
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 19px 0;
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 30px;
+  }
+  &__link {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #006450;
+  }
+  &__link--active {
+    font-size: 16px;
+    line-height: 48px;
+  }
+}
+
+.footer {
+  padding-top: 23px;
+}
+.footer-top {
+  padding: 18px 0 30px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #006450;
+  &__item{
+    max-width: 347px;
+    width: 100%;
+    // background: rgb(67, 75, 228);
+  }
+  &__title {
+    font-style: italic;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #006450;
+    margin-bottom: 18px;
+  }
+  &__link {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #006450;
+  }
+}
+@import "media";
