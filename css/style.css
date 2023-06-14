@@ -163,4 +163,82 @@ body {
   letter-spacing: 0.4px;
   color: #006450;
 }
+
+.banner-slider__item {
+  background: url(../img/slider/1.png) center center no-repeat;
+  background-size: cover;
+  padding: 156px 0 614px;
+}
+
+.banner-slider__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.banner-slider__title, .banner-slider__name {
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.4px;
+  color: #fffaef;
+}
+
+.banner-slider__shop {
+  background: #e1ff32;
+  border-radius: 0px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+  line-height: 64px;
+  letter-spacing: 0.4px;
+  color: #000;
+  padding: 0 58px;
+}
+
+.footer-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 22px;
+}
+
+.footer-bottom__copy {
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #006450;
+  margin-right: auto;
+}
+
+.footer-bottom__email {
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: 0.4px;
+  color: #006450;
+  margin-left: auto;
+}
+
+.footer-bottom__btn {
+  font-size: 11px;
+  line-height: 13px;
+  text-align: right;
+  color: #006450;
+  margin-left: 90px;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
 /*# sourceMappingURL=style.css.map */
