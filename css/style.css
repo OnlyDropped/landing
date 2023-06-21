@@ -128,42 +128,6 @@ body {
   line-height: 48px;
 }
 
-.footer {
-  padding-top: 23px;
-}
-
-.footer-top {
-  padding: 18px 0 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border-top: 2px solid #006450;
-}
-
-.footer-top__item {
-  max-width: 347px;
-  width: 100%;
-}
-
-.footer-top__title {
-  font-style: italic;
-  font-size: 15px;
-  line-height: 20px;
-  letter-spacing: 0.4px;
-  color: #006450;
-  margin-bottom: 18px;
-}
-
-.footer-top__link {
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: 0.4px;
-  color: #006450;
-}
-
 .banner-slider__item {
   background: url(../img/slider/1.png) center center no-repeat;
   background-size: cover;
@@ -200,6 +164,180 @@ body {
   letter-spacing: 0.4px;
   color: #000;
   padding: 0 58px;
+}
+
+.banner-slider .slick-dots {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  right: 23px;
+  bottom: 34px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0 6px;
+}
+
+.banner-slider .slick-dots li button {
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  width: 12px;
+  height: 12px;
+  background: transparent;
+  opacity: 1;
+  border: 1px solid #fffaef;
+}
+
+.banner-slider .slick-dots li.slick-active button {
+  width: 12px;
+  height: 12px;
+  background: #fffaef;
+  border: 1px solid #fffaef;
+}
+
+.designed {
+  padding: 109px 0 38px;
+}
+
+.designed__wrapper {
+  position: relative;
+}
+
+.designed__wrapper::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: -84px;
+  height: 2px;
+  background: #006450;
+}
+
+.designed__title {
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #006450;
+  max-width: 583px;
+  width: 100%;
+  margin: 0 auto 107px;
+}
+
+.designed__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 25px 0;
+}
+
+.designed__item {
+  max-width: 682px;
+  width: 100%;
+  min-height: 682px;
+  height: 100%;
+  position: relative;
+  padding-top: 13px;
+}
+
+.designed__link {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #e1ff32;
+  font-size: 24px;
+  line-height: 60px;
+  text-align: center;
+  color: #3e3935;
+}
+
+.designed__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  text-transform: lowercase;
+  color: #fffaef;
+  margin: 0 auto 12px;
+}
+
+.designed__price {
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.4px;
+  text-transform: lowercase;
+  color: #fffaef;
+}
+
+.designed__text {
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  text-transform: lowercase;
+  color: #fffaef;
+}
+
+.footer {
+  padding-top: 23px;
+}
+
+.footer-top {
+  padding: 18px 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 2px solid #006450;
+}
+
+.footer-top__item {
+  max-width: 347px;
+  width: 100%;
+}
+
+.footer-top__title {
+  font-style: italic;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #006450;
+  margin-bottom: 18px;
+}
+
+.footer-top__link {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #006450;
 }
 
 .footer-bottom {
