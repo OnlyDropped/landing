@@ -243,6 +243,131 @@
     }
   }
 }
+.designed-slider {
+  &__item {
+    padding: 92px 0 26px;
+  }
+  &__heading {
+    color: #00c08b;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.4px;
+    text-transform: lowercase;
+    margin: 0 auto 24px;
+    text-align: center;
+  }
+  &__text {
+    margin: 0 auto 118px;
+    max-width: 777px;
+    width: 100%;
+    color: #006450;
+    text-align: center;
+    font-size: 56px;
+    line-height: 62px;
+    letter-spacing: 0.4px;
+  }
+  &__link {
+    color: #006450;
+    font-size: 24px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: lowercase;
+  }
+  .slick-dots {
+    position: absolute;
+    display: flex;
+    right: 50%;
+    bottom: 25px;
+    transform: translateX(50%);
+    align-items: center;
+    gap: 0 8px;
+  }
+  .slick-dots li button {
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #006450;
+    background: transparent;
+    opacity: 1;
+    // border-radius: 8px;
+  }
+  .slick-dots li.slick-active button {
+    // width: 14px;
+    // height: 14px;
+    // background: #5e50a2;
+    // border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #006450;
+    background: #006450;
+  }
+}
+.shop {
+  padding: 25px 0 38px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px 0px;
+  }
+}
+.shampoo {
+  &__item {
+    padding: 109px 0;
+    border-top: 2px solid #006450;
+    border-bottom: 2px solid #006450;
+  }
+  &__text {
+    max-width: 830px;
+    width: 100%;
+    color: #006450;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 89px;
+    letter-spacing: 0.4px;
+    margin: 0 auto;
+  }
+}
+.planet {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 0 49px;
+    gap: 0 25px;
+  }
+  &__info{
+    display: flex;
+    flex-direction: column;
+  }
+  &__text {
+    color: #006450;
+    font-size: 35px;
+    line-height: 44px;
+    letter-spacing: 0.4px;
+    span {
+      display: block;
+    }
+    & + .planet__text {
+      margin-top: 86px;
+    }
+  }
+  &__link {
+    color: #006450;
+    font-size: 24px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: lowercase;
+        margin-top: auto;
+  }
+}
 .shape {
   background: url(../img/shape-bg.png) center center no-repeat;
   background-size: cover;

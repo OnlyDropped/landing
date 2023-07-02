@@ -395,6 +395,157 @@ body {
   margin-top: auto;
 }
 
+.designed-slider__item {
+  padding: 92px 0 26px;
+}
+
+.designed-slider__heading {
+  color: #00c08b;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.4px;
+  text-transform: lowercase;
+  margin: 0 auto 24px;
+  text-align: center;
+}
+
+.designed-slider__text {
+  margin: 0 auto 118px;
+  max-width: 777px;
+  width: 100%;
+  color: #006450;
+  text-align: center;
+  font-size: 56px;
+  line-height: 62px;
+  letter-spacing: 0.4px;
+}
+
+.designed-slider__link {
+  color: #006450;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  text-transform: lowercase;
+}
+
+.designed-slider .slick-dots {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  right: 50%;
+  bottom: 25px;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0 8px;
+}
+
+.designed-slider .slick-dots li button {
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #006450;
+  background: transparent;
+  opacity: 1;
+}
+
+.designed-slider .slick-dots li.slick-active button {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #006450;
+  background: #006450;
+}
+
+.shop {
+  padding: 25px 0 38px;
+}
+
+.shop__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 25px 0px;
+}
+
+.shampoo__item {
+  padding: 109px 0;
+  border-top: 2px solid #006450;
+  border-bottom: 2px solid #006450;
+}
+
+.shampoo__text {
+  max-width: 830px;
+  width: 100%;
+  color: #006450;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 89px;
+  letter-spacing: 0.4px;
+  margin: 0 auto;
+}
+
+.planet__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 23px 0 49px;
+  gap: 0 25px;
+}
+
+.planet__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.planet__text {
+  color: #006450;
+  font-size: 35px;
+  line-height: 44px;
+  letter-spacing: 0.4px;
+}
+
+.planet__text span {
+  display: block;
+}
+
+.planet__text + .planet__text {
+  margin-top: 86px;
+}
+
+.planet__link {
+  color: #006450;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  text-transform: lowercase;
+  margin-top: auto;
+}
+
 .shape {
   background: url(../img/shape-bg.png) center center no-repeat;
   background-size: cover;
